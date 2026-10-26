@@ -58,3 +58,30 @@ footer a{color:var(--muted);margin-right:14px}
 .doc p,.doc li{color:var(--text);opacity:.92;margin-top:10px}
 .doc ul{margin-left:20px}
 .doc .updated{color:var(--muted);font-size:.9rem}
+/* horoscope + gift */
+.small{font-size:.9rem;color:var(--muted);margin-top:14px}
+.fine{font-size:.82rem;color:var(--muted);margin-top:22px;text-align:center}
+.week{color:var(--gold);text-transform:uppercase;letter-spacing:1.4px;font-size:.8rem;margin-bottom:10px}
+.sign-hero{padding:56px 0 40px}
+.glyph{font-size:3rem;color:var(--gold2);line-height:1;margin-bottom:12px}
+.sign-facts{color:var(--muted);font-size:.98rem}
+.reading{max-width:720px}
+.reading-body p{font-family:Georgia,"Times New Roman",serif;font-size:1.17rem;line-height:1.85;color:#f4f1e8;margin-bottom:1em}
+.thread{color:var(--gold2);font-family:Georgia,serif;font-size:1.08rem;margin-top:6px}
+.cta-box{margin-top:36px;border:1px solid var(--gold);border-radius:16px;padding:26px;text-align:center;background:linear-gradient(180deg,rgba(212,175,95,.10),rgba(17,29,66,.6))}
+.cta-box h2{font-size:1.6rem}
+.cta-box p{color:var(--muted);max-width:560px;margin:0 auto 18px}
+.sign-nav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:28px}
+.sign-nav a{text-decoration:none}
+.sign-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.sign-tile{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;border:1px solid var(--line);border-radius:14px;padding:18px 12px;text-decoration:none;color:var(--text);background:rgba(17,29,66,.6)}
+.sign-tile:hover{border-color:var(--gold)}
+.sign-tile .g{font-size:1.9rem;color:var(--gold2)}
+.sign-tile strong{font-family:Georgia,serif;font-weight:normal;font-size:1.15rem;color:#fff}
+.sign-tile small{color:var(--muted);font-size:.75rem}
+.sign-tile em{color:var(--gold2);font-size:.85rem;margin-top:6px}
+.sign-strip{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.sign-strip a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;text-decoration:none;color:var(--text);font-size:.9rem}
+.sign-strip a span{color:var(--gold2);margin-right:6px}
+.sign-strip a.here{border-color:var(--gold);color:var(--gold2)}
+@media(max-width:420px){nav a{margin-left:10px;font-size:.85rem}.logo{font-size:1.1rem}}
