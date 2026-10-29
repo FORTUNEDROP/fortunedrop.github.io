@@ -85,3 +85,7 @@ footer a{color:var(--muted);margin-right:14px}
 .sign-strip a span{color:var(--gold2);margin-right:6px}
 .sign-strip a.here{border-color:var(--gold);color:var(--gold2)}
 @media(max-width:420px){nav a{margin-left:10px;font-size:.85rem}.logo{font-size:1.1rem}}
+/* zodiac + compatibility */
+.gifts{margin:10px 0 0 20px}
+.gifts li{color:var(--text);opacity:.92;margin-top:6px}
+.reading h2{margin-top:8px}
